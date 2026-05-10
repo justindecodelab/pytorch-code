@@ -263,8 +263,8 @@ self.drop1 = nn.Dropout2d()
 
 优化器:SGD优化器(随机梯度下降)
 
-2.3 定义训练、验证、预测模块
-# train_loader， 一次性加载了sample中全部的样本数据，每次以batch_size为一组循环
+2.3 定义训练、验证、预测模块  
+**train_loader， 一次性加载了sample中全部的样本数据，每次以batch_size为一组循环**  
     train_loader = torch.utils.data.DataLoader(train_set, batch_size=batch_size, sampler=train_sample, num_workers=2)   return train_loader
 
 val_loader = torch.utils.data.DataLoader(train_set, batch_size=64, sampler=validation_sample, num_workers=2)
