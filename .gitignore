@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+
+# Auto-downloaded or local datasets (large; regenerate by running scripts)
+**/dataset/MNIST/
+**/dataset/cifar-10-batches-py/
+**/dataset/PetImages/
+
+# Checkpoint weights produced by training
+*.pt
+*.pth
+*.ckpt
+**/dataset/*.tar.gz
+
+venv/
+.env

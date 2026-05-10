@@ -96,4 +96,3 @@ Respect the license of the original course/book/project if this code is derived 
 ---
 
 **推荐阅读顺序 / Suggested order:** `chapter1` → `chapter2` (section 1 → 2 → 3 → 4) → `chapter3/tiny_detector_demo`.
-# pytorch-code
